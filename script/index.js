@@ -1,3 +1,5 @@
+import { baseUrl } from "./baseUrl";
+
 let cart = [];
 
 function addToCart(item) {
@@ -22,3 +24,14 @@ function clearCart() {
     alert("Cart cleared!");
     updateCart();
 }
+fetch(`${baseUrl}/fullstack`,{
+    method: "POST",
+    headers:{
+        "content-type":"application/json"
+
+    },
+
+
+
+  
+})  
