@@ -1,1 +1,0 @@
-export const baseUrl = "https://closed-lunar-caribou.glitch.me"
